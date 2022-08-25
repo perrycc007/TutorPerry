@@ -1,0 +1,45 @@
+.actions {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .actions {
+    font: inherit;
+    cursor: pointer;
+    color: #77002e;
+    border: 1px solid #77002e;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    height:5rem;
+    width: 5rem;
+  }
+  
+
+  .active {
+    background-color: #23ac57;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    color: #00772e;
+    border: 1px solid #1aa559;
+    height:5rem;
+    width: 5rem;
+  }
+
+  .actions :hover{
+    background-color: #1ea3b4;
+  }
+
+  .active :hover{
+    background-color: #1ea3b4;
+  }
+
+  .checkbox{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
